@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 661px;
+  background: #c4c4c4;
+  margin: 300px auto;
+}
+
+.search__input {
+  min-width: 500px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56.25px;
+}
+.search__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.search__item {
+  padding-left: 13px;
+  border: 2px #000000 solid;
+  background: #e3e3e3;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35.16px;
+}
+
+.repslist__item {
+  display: flex;
+  align-items: center;
+  min-width: 503px;
+  border: 1px #000000 solid;
+  background: #e27beb;
+  padding: 8px 17px;
+}
+.repslist__item:first-child {
+  margin-top: 45px;
+}
+.repslist__item:last-child {
+  margin-bottom: 72px;
+}
+.repslist__content {
+  margin-right: auto;
+}
+.repslist__text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  margin: 0;
+}
+.repslist__btn {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  height: 38.5px;
+  width: 42px;
+  background: url("./dist/icons/close1.svg"), url("./dist/icons/close2.svg") no-repeat center;
+}
